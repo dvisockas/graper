@@ -1,30 +1,26 @@
 # Graper
 
-TODO: Write a gem description
+Graper is a gem for generating structured grape projects.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'graper'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+To use graper write
 
     $ gem install graper
 
 ## Usage
 
-TODO: Write usage instructions here
+To generate new project write:
+
+
+    $ graper new your_app_name
+
+And after answering all the questions, you will have nicely structured grape project.
+
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/graper/fork )
+1. Fork it ( https://github.com/dvisockas/graper/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
