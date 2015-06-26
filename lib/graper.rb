@@ -1,5 +1,13 @@
 require "graper/version"
+require "graper/base"
+require "graper/grape"
 
 module Graper
-  # Your code goes here...
+	class << self
+		def initialize
+			puts "Graper started"
+		end
+	end
 end
+
+Graper.initialize
